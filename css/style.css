@@ -69,6 +69,7 @@ body {
     background-attachment: fixed;
     font-family: "UniQAIDAR_Talabat 01", "sans-serif";
     position: relative;
+    background-color: #f2eee3;
 }
 
 @media (min-width: 800px) {
@@ -198,7 +199,7 @@ body {
     height: 25px;
     overflow: hidden;
     font-size: 0.75rem;
-    background-color: #e9ecef;
+    background-color: #fff;
     border-radius: 21px;
     max-width: 540px;
     margin: 45px auto 0 auto;
