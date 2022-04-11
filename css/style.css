@@ -162,6 +162,7 @@ body {
     }
     .email {
         justify-content: center;
+        text-align: center;
     }
 }
 
@@ -234,6 +235,3 @@ body {
         animation: none;
     }
 }
-
-
-/*# sourceMappingURL=style.css.map */
