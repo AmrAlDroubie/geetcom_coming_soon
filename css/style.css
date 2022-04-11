@@ -231,8 +231,9 @@ body {
     animation: 1s linear infinite progress-bar-stripes;
 }
 
-@media (prefers-reduced-motion: reduce) {
+
+/* @media (prefers-reduced-motion: reduce) {
     .progress-bar-animated {
         animation: none;
     }
-}
+} */
