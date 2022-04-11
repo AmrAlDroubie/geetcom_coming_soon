@@ -159,6 +159,7 @@ body {
     .social-icons {
         margin-top: 35px;
         justify-content: center;
+        text-align: center;
     }
     .email {
         justify-content: center;
