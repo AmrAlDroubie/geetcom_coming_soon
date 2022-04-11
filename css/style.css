@@ -1,0 +1,239 @@
+/* fonts */
+
+@font-face {
+    font-family: "UniQAIDAR_Talabat 01";
+    src: url("../fonts/UniQAIDAR_Talabat01.woff2") format("woff2"), url("../fonts/UniQAIDAR_Talabat01.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    transition: 0.2s;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 740px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 950px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .container {
+        width: 1250px;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    background-image: url("../images/coming_back.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "UniQAIDAR_Talabat 01", "sans-serif";
+    position: relative;
+}
+
+@media (min-width: 800px) {
+    body {
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+
+.logo {
+    display: block;
+    margin: 35px auto 25px auto;
+    width: 230px;
+}
+
+.coming-soon h1 {
+    font-size: 95px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+@media (max-width: 776px) {
+    .coming-soon h1 {
+        font-size: 75px;
+    }
+    .coming-soon h1 span {
+        display: block;
+    }
+}
+
+.coming-soon h1 span:first-of-type {
+    color: #2b2b2b;
+}
+
+.coming-soon h1 span:last-of-type {
+    color: #db120d;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+    font-size: 85px;
+    margin-top: 15px;
+    justify-content: center;
+    color: transparent;
+    background-image: linear-gradient( 7deg, #e0b154 0%, #c18829 20.43%, #ebc55c 49.54%, #ddae45 72.98%, #be8122 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-background-clip: text;
+}
+
+.d-flex i {
+    font-style: normal;
+}
+
+@media (max-width: 767px) {
+    .d-flex {
+        flex-direction: column-reverse;
+    }
+    .d-flex i {
+        display: none;
+    }
+    .w-25 {
+        margin-top: 35px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.counter-text {
+    font-size: 22px;
+    margin-top: 10px;
+    color: #2b2b2b;
+    margin-left: 10px;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+@media (max-width: 767px) {
+    .social-icons {
+        margin-top: 35px;
+        justify-content: center;
+    }
+    .email {
+        justify-content: center;
+    }
+}
+
+.social-icons img {
+    width: 38px;
+    margin-left: 5px;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.email img {
+    width: 38px;
+    margin-left: 15px;
+}
+
+.w-25 {
+    margin-left: 15px;
+}
+
+@keyframes progress-bar-stripes {
+    0% {
+        background-position-x: 2rem;
+    }
+}
+
+.progress {
+    display: flex;
+    height: 25px;
+    overflow: hidden;
+    font-size: 0.75rem;
+    background-color: #e9ecef;
+    border-radius: 21px;
+    max-width: 540px;
+    margin: 45px auto 0 auto;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e0b154;
+    transition: width 0.6s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .progress-bar {
+        transition: none;
+    }
+}
+
+.progress-bar-striped {
+    background-image: linear-gradient( 45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+    background-size: 2rem 2rem;
+}
+
+.progress-bar-animated {
+    animation: 1s linear infinite progress-bar-stripes;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .progress-bar-animated {
+        animation: none;
+    }
+}
+
+
+/*# sourceMappingURL=style.css.map */
