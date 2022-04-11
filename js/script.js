@@ -32,7 +32,7 @@ const countDown = () => {
         }
     );
     const progress_value = Math.ceil((gap * 100) / countDate);
-    document.querySelector(".progress-bar").style.width = +progress_value + 8 + "%";
+    document.querySelector(".progress-bar").style.width = +progress_value  + "%";
 };
 countDown();
 setInterval(countDown, 1000);
