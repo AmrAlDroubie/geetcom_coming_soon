@@ -1,5 +1,5 @@
 const countDown = () => {
-    const countDate = new Date("April 12 , 2022 00:00:00").getTime();
+    const countDate = new Date("April 11 , 2022 23:40:00").getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
 
@@ -32,7 +32,7 @@ const countDown = () => {
         }
     );
     const progress_value = Math.ceil((gap * 100) / countDate);
-    document.querySelector(".progress-bar").style.width = progress_value  + "%";
+    document.querySelector(".progress-bar").style.width = +progress_value + 7  + "%";
 };
 countDown();
 setInterval(countDown, 1000);
